@@ -1,0 +1,5 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(—îäıÿÿÿÿ8«³ƒ†Ğ/
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò×Å‰8«³ƒ†Ğ/
+o
+java:S1104"RMake events a static final constant or non-public and provide accessors if needed.(›ä¾8¾³ƒ†Ğ/

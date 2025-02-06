@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlapMapAndMapsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-01T17:55:23" hostname="MacBook-Pro-Edwin.local" time="10.216">
+  <properties/>
+  <testcase name="tryFlapMaps()" classname="FlapMapAndMapsTest" time="10.216"/>
+  <system-out><![CDATA[SpaceShip(id=-1, name=Halk, amount=10)
+SpaceShip(id=-100, name=Halklarge, amount=20)
+SpaceShip(id=-1, name=Eagle, amount=20)
+SpaceShip(id=-100, name=Eaglelarge, amount=40)
+SpaceShip(id=-1, name=Round, amount=30)
+SpaceShip(id=-100, name=Roundlarge, amount=60)
+SpaceShip(id=-1, name=Pyramid, amount=50)
+SpaceShip(id=-100, name=Pyramidlarge, amount=100)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

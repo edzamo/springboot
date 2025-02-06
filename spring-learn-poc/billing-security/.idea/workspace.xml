@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfac4c4a-97fb-44e7-b83a-9f25e25aa13d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/config/StreamConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/config/StreamConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/model/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/model/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/service/Procedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/cloud-stream-processor/src/main/java/com/example/stream/cloud/service/Procedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/controller/BookFunctionalController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/controller/BookFunctionalController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/domain/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/domain/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/repository/BookRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/repository/BookRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/service/BookHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/service/BookHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/service/BookService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/service/BookService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/service/BookServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-webflux/kotlin-reactive/src/main/kotlin/com/example/kotlin/service/BookServiceImpl.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2nTp7fEkPomMT4z4hniCd9zowLS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.billing [clean].executor": "Run",
+    "Maven.billing [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ezamora/Documents/Personal/Curso/academias/spring/spring/spring-learn-poc/billing-security",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4632184",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="97074e28-7223-439b-bd46-7faef34b8a9c" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="billing-security" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="billing-security" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfac4c4a-97fb-44e7-b83a-9f25e25aa13d" name="Changes" comment="" />
+      <created>1729006753264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729006753264</updated>
+    </task>
+    <servers />
+  </component>
+</project>

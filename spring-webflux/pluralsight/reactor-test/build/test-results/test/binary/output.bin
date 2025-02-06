@@ -1,0 +1,8 @@
+'SpaceShip(id=-1, name=Halk, amount=10)
+.SpaceShip(id=-100, name=Halklarge, amount=20)
+(SpaceShip(id=-1, name=Eagle, amount=20)
+/SpaceShip(id=-100, name=Eaglelarge, amount=40)
+(SpaceShip(id=-1, name=Round, amount=30)
+/SpaceShip(id=-100, name=Roundlarge, amount=60)
+*SpaceShip(id=-1, name=Pyramid, amount=50)
+2SpaceShip(id=-100, name=Pyramidlarge, amount=100)

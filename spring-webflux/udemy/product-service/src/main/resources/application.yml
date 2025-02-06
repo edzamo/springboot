@@ -1,0 +1,6 @@
+server:
+  port: 8091
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongoadmin:admin@localhost:27017/productdb?authSource=admin

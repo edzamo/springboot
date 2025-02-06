@@ -1,0 +1,23 @@
+You can make a test with this command:
+
+for getAll:
+curl -v http://localhost:8080/products/619ec1ebff972b2b788d6d19 
+
+
+for Post with json object:
+
+curl -v -H "Content-Type: application/json" -d "{\"name\":\"Black Tea\",\"price\":1.99}" http://localhost:8080/products 
+
+for Update by id and json object
+
+curl -v -H "Content-Type: application/json" -d "{\"name\":\"Black Tea\",\"price\":3.99}" -X PUT http://localhost:8080/products/619fb70ad7d3f52be9dcdd7e 
+
+
+for Delete  with id:
+curl -v -X DELETE http://localhost:8080/products/619fb70ad7d3f52be9dcdd7e 
+
+
+for delete All with 
+
+curl -v -X DELETE http://localhost:8080/products/ 
+

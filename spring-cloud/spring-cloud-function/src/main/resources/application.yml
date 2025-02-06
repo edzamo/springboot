@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: spring-cloud-function
+  cloud:
+    function:
+      definition: reverse
+
+

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mongo-reactive
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: spring_db
+      username: root
+      password: admin
+      authentication-database: admin
+
