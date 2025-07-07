@@ -1,0 +1,8 @@
+com/openwebinars/anotaciones/App_Autowire.class
+com/openwebinars/anotaciones/autowire/Cliente.class
+com/openwebinars/anotaciones/autowire/Persona.class
+com/openwebinars/anotaciones/autowire/Provincia.class
+com/openwebinars/anotaciones/beans/Mundo.class
+com/openwebinars/anotaciones/App_AutowiredQualifier.class
+com/openwebinars/anotaciones/App.class
+com/openwebinars/anotaciones/autowire/Poblacion.class

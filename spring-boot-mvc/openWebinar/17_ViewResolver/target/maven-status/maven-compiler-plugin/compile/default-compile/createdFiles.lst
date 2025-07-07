@@ -1,0 +1,6 @@
+com/openwebinars/springmvc/data/ProfesorRepo.class
+com/openwebinars/springmvc/services/SimpleProfesorService.class
+com/openwebinars/springmvc/controller/ProfesorController.class
+com/openwebinars/springmvc/model/Profesor.class
+com/openwebinars/springmvc/model/Asignatura.class
+com/openwebinars/springmvc/services/ProfesorService.class
