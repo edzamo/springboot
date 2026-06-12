@@ -1,3 +1,5 @@
+
+
 # 🧱  Hexagonal Project
 
 Proyecto base con arquitectura hexagonal usando Java 17+ y Spring Boot.
