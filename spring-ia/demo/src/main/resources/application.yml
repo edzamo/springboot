@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo
+  ai:
+    openai:
+      api-key: "REMOVED"
+
+app:
+  ai:
+    query-template: "As an expert in coding and programing. Always write program in java . Now reply for this question :{query}"
