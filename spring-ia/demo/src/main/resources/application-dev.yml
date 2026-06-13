@@ -1,12 +1,13 @@
 spring:
-  application:
-    name: demo
-  profiles:
-    active: dev
   ai:
     openai:
-      api-key: ${OPENAI_API_KEY}
+      api-key: ${OPENAI_API_KEY:REMOVED}
 
 app:
   ai:
     query-template: "As an expert in coding and programing. Always write program in java . Now reply for this question :{query}"
+
+logging:
+  level:
+    root: INFO
+    org.springframework.ai: DEBUG
