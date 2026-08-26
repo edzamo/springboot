@@ -1,0 +1,65 @@
+# Applies to this root and every nested project (Maven/Gradle/Eclipse/IntelliJ/VS Code),
+# so a single file here is enough for the whole monorepo.
+
+### Compiled output ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+### Maven ###
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Gradle ###
+**/.gradle/
+**/build/
+!**/src/**/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+### Eclipse / NetBeans (also covers duplicated project copies under bin/) ###
+**/.classpath
+**/.project
+**/.settings/
+**/.metadata/
+**/bin/
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
+
+### IntelliJ IDEA ###
+**/.idea/
+*.iws
+*.iml
+*.ipr
+**/out/
+
+### VS Code ###
+**/.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Local secrets / environment overrides ###
+.env
+.env.local
+**/application-local.yml
+**/application-local.yaml
+**/application-local.properties
