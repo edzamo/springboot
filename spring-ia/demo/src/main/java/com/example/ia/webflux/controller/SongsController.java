@@ -1,5 +1,6 @@
 package com.example.ia.webflux.controller;
 
+import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,15 +24,26 @@ public class SongsController {
   @GetMapping("/ai/{query}")
   public Mono<String> getSongs(@PathVariable("query") String query) {
     log.info("Received query: {}", query);
-    return Mono.just(
-      chatService.chatTemplate(query)
-    );
+    return Mono.just(chatService.chatTemplate(query));
+  }
+
+  // Prompt with parameter
+  @GetMapping("/parameter/topsong/{year}")
+  public String parameterTopSong(@PathVariable("year") int year) {
+    String stringPrompt =
+      "What was the Billboard number one year-end top 100 single for {year}?";
+    PromptTemplate template = new PromptTemplate(stringPrompt);
+    template.add("year", year);
+    return chatService.chatTemplate(template.render());
   }
 
   @GetMapping("/ai/stream")
-  public Mono<String> getSongs(@RequestParam("query") String query, @RequestParam("queryTwo") String queryTwo) {
+  public Mono<String> getSongs(
+    @RequestParam("query") String query,
+    @RequestParam("queryTwo") String queryTwo
+  ) {
     log.info("Received query: {}", query);
     log.info("Received queryTwo: {}", queryTwo);
-    return Mono.just(query + " " + queryTwo );
+    return Mono.just(query + " " + queryTwo);
   }
 }
